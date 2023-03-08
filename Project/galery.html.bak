@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
+	rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/gallery-clean.css">	
+   
+
+    <title>Gallery</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class ="header__logo"> 
+					<a class= "link" href = "index.html">C&G </a>
+				</div>
+				<nav class="nav">
+					<a class="nav__link" href="#">O nas</a>
+					<a class="nav__link" href="#">Galeria</a>
+					<a class="nav__link" href="kontakt.html">Kontakt</a>
+					<a class="nav__link" href="log.html">Logowanie</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<div class="container">
+		<div class="tz-gallery">
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<a class="lightbox" href="assets/images/galeria/Nature1.jpg">
+							<img src="assets/images/galeria/Nature1.jpg" alt="Nature">
+						</a>
+                   
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<a class="lightbox" href="assets/images/galeria/City.jpg">
+							<img src="assets/images/galeria/City.jpg" alt="City">
+						</a>
+
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<a class="lightbox" href="assets/images/galeria/Dragon.jpg">
+							<img src="assets/images/galeria/Dragon.jpg" alt="Dragon">
+						</a>
+                    
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<section class="section">
+		<div class="container">
+			<div class="section_header">
+				<h2 class="sectiontitle">Follow us</h2>
+					<br>
+					<br>
+						<div class="services">
+							<div class="services__item">
+									<img class="services__icon"
+									src="assets/images/servesis/FacebookIcon.png" alt="">
+							</div>
+							<div class="services__item">
+							<img class="icon"
+									src="assets/images/servesis/DiscordIcon.png" alt="">
+							</div>
+							<div class="services__item">
+							<img class="icon"
+									src="assets/images/servesis/gmail.png" alt="">
+							</div>
+							<div class="services__item">
+							<img class="icon"
+									src="assets/images/servesis/TwitIcon.png" alt="">
+							</div>
+							<div class="services__item">
+							<img class="icon"
+									src="assets/images/servesis/YoutIcon.png" alt="">
+							</div>
+						
+						</div>
+				</div>
+		</div>	
+		
+	</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+</html>

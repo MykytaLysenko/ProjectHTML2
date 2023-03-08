@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/style2.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
+		rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">		
+	
+		<title>Logowanie</title>
+	</head>
+
+	<body>
+	
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class ="header__logo"> 
+				<a class= "link" href = "index.html">C&G </a>
+				</div>
+				<nav class="nav">
+					<a class="nav__link" href="#">O nas</a>
+					<a class="nav__link" href="galeria.html">Galeria</a>
+					<a class="nav__link" href="kontakt.html">Kontakt</a>
+					<a class="nav__link" >Logowanie</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+	
+	
+	<div class="intro">
+		<div class="container">
+				<div class="intro__inner">
+		<form>
+			<h2 class="intro__title">Logowanie</h2>
+			<br>
+		Login:
+				<input type ="text" name="login">
+			</br>
+		Hasło:
+				<input type="password" name="haslo">
+			</br>
+			</br>
+				<input type="submit" value="Wyślij">
+				<input type="reset" value="Wyczyść">
+	<br>
+	<br>
+	<br>
+			<a class="text" href = "#">Utwórz profil</a>
+			<br>
+			<a class="text" href = "index.html">Powrót do strony głównej</a>
+		</form>
+		</div>
+		</div>
+		</div>
+		
+	<section class="sectio">
+		<div class="container">
+			<div class="section_header">
+				<h2 class="sectiontitle">Follow us</h2>
+					<br>
+					<br>
+						<div class="services">
+							<div class="services__item">
+									<img class="services__icon"
+									src="assets/images/servesis/FacebookIcon.png" alt="">
+							</div>
+							<div class="services__item">
+							<img class="icon"
+									src="assets/images/servesis/DiscordIcon.png" alt="">
+							</div>
+							<div class="services__item">
+							<img class="icon"
+									src="assets/images/servesis/TwitIcon.png" alt="">
+							</div>
+							<div class="services__item">
+							<img class="icon"
+									src="assets/images/servesis/YoutIcon.png" alt="">
+							</div>
+						
+						</div>
+					</div>
+			</div>	
+	</body>
+</html> 
